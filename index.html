@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Réservation de Places</title>
+</head>
+<body>
+  <div id="salle">
+    <div id="screen"></div>
+    <div id="cinema">
+      <div id="gauche"></div>
+      <div id="central"></div>
+      <div id="droite"></div>
+    </div>
+  </div>
+  <div id="menu">
+    <div class="welcom">
+      <h1>Sugarland Theaters</h1>
+      <p>Welcome to Sugarland Theaters, where the magic of the movies comes to life!</p>
+      <p id="price">Total amount:  + <span id="price-value">00</span> TND</p>
+      <img src="st-logo.jpg" alt="Sugarland-logo">
+    </div>
+    <label for="choixListe">Choose the movie:</label>
+    <select id="film-list" name="film-liste">
+    </select>
+    <button id="validate-btn">Validate</button>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
